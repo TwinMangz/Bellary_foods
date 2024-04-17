@@ -55,9 +55,10 @@ a:focus {
     box-shadow: none;
 }
 
+/* 
 .container-fluid {
     max-width: 1366px;
-}
+} */
 
 .back-to-top {
     position: fixed;
@@ -169,7 +170,7 @@ a:focus {
     .navbar.nav-sticky .navbar-brand {
         color: #fbaf32;
     }
-
+    
     .navbar-light .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
@@ -183,7 +184,7 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
         color: #666666;
     }
-
+    
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
         color: #fbaf32;
@@ -194,10 +195,15 @@ a:focus {
         color: #fbaf32;
     }
 
+    .contacthead{
+        color: #fbaf32;
+        text-shadow: 2px 2px 60px black;
+    }
+    
     /* .container-fluid{
         height: 120px;
     } */
-/* 
+    /* 
     .BellaryLogo{
         height: 120px;
     } */
@@ -224,11 +230,7 @@ a:focus {
     
     .navbar .dropdown-menu {
         box-shadow: none;
-    }
-    .container-fluid{
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    }   
 
     .BellaryLogo{
         height: 52px;
@@ -487,129 +489,14 @@ a:focus {
     }
 }
 
-
-/*******************************/
-/********* Booking CSS *********/
-/*******************************/
-.booking {
-    position: relative;
-    width: 100%;
-    margin-bottom: 45px;
-    background: rgba(0, 0, 0, .04);
-}
-
-.booking .booking-content {
-    padding: 45px 0 15px 0;
-}
-
-.booking .booking-content .section-header {
-    margin-bottom: 30px;
-}
-
-.booking .booking-form {
-    padding: 60px 30px;
-    background: #fbaf32;
-}
-
-.booking .booking-form .control-group {
-    margin-bottom: 15px;
-}
-
-.booking .booking-form .input-group-text {
-    position: absolute;
-    padding: 0;
-    border: none;
-    background: none;
-    top: 15px;
-    right: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.booking .booking-form .form-control {
-    height: 45px;
-    font-size: 14px;
-    color: #ffffff;
-    padding: 0 15px;
-    border-radius: 5px !important;
-    border: 1px solid #ffffff;
-    background: transparent;
-}
-
-.booking .booking-form select.form-control {
-    padding: 0 10px;
-}
-
-.booking .booking-form .form-control::placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-
-.booking .booking-form .form-control:-ms-input-placeholder,
-.booking .booking-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
-}
-
-.booking .booking-form .input-group [data-toggle="datetimepicker"] {
-    cursor: default;
-}
-
-.booking .booking-form .btn.custom-btn {
-    width: 100%;
-    color: #fbaf32;
-    background: #ffffff;
-    border: 1px solid #ffffff;
-}
-
-.booking .booking-form .btn.custom-btn:hover {
-    color: #ffffff;
-    background: transparent;
-}
-
-
 /**********************************/
 /*********** iframe CSS **********/
 /**********************************/
 
 .frame{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-
-    padding: 0px 250px;
 }
-
-@media (min-width: 1920px) {
-    .frame{
-
-        padding: 0px 300px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .frame{
-
-        padding: 0px 0px;
-    }
-}
-@media (max-width: 991.98px) {
-    .frame{
-
-        padding: 0px 0px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .frame{
-        padding: 0 0px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .frame{
-        padding: 0 0px;
-    }
-}
-
 
 /*******************************/
 /********* Contact CSS *********/
@@ -619,7 +506,6 @@ a:focus {
     width: 100%;
     padding: 45px 0 15px 0;
 }
-
 
 
 /*******************************/
